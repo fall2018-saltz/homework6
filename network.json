@@ -38,32 +38,12 @@
         {
             "ports": [
                 {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram2.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "gmurder",
                     "type": "png"
                 }
             ],
             "source": "Histogram2.R",
             "target": "gmurder.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram3.R"
         },
         {
             "ports": [
@@ -78,42 +58,12 @@
         {
             "ports": [
                 {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Boxplot.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram4.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "grape",
                     "type": "png"
                 }
             ],
             "source": "Histogram4.R",
             "target": "grape.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Boxplot2.R"
         },
         {
             "ports": [
@@ -134,16 +84,171 @@
             ],
             "source": "Boxplot.R",
             "target": "gbox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram4.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarchartNoOfM.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarChartRotation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarchartStateMurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarchartColor.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbar",
+                    "type": "png"
+                }
+            ],
+            "source": "BarchartNoOfM.R",
+            "target": "gbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbarchart",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChartRotation.R",
+            "target": "gbarchart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbarchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "BarchartStateMurder.R",
+            "target": "gbarchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbarchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "BarchartColor.R",
+            "target": "gbarchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gscatter",
+                    "type": "png"
+                }
+            ],
+            "source": "Scatter.R",
+            "target": "gscatter.png"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "assigned_to": "rohanmahajan",
-            "name": "clean.R",
-            "task_status": "in progress"
         },
         {
             "name": "g.png"
@@ -198,8 +303,59 @@
         },
         {
             "name": "gbox.png"
+        },
+        {
+            "name": "gbar.png"
+        },
+        {
+            "name": "gbarchart.png"
+        },
+        {
+            "name": "gbarchart1.png"
+        },
+        {
+            "name": "gbarchart2.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarChartRotation.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarchartStateMurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarchartColor.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gscatter.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Whole code description given",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Step C - Question 8",
+            "name": "BarchartNoOfM.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 03:12:29",
+    "updated_at": "2018-10-11 03:45:13",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
