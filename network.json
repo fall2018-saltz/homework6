@@ -227,8 +227,12 @@
         {
             "desc": "",
             "name": "BarchartStateMurder.R"
+        },
+        {
+            "desc": "",
+            "name": "BarchartColor.R"
         }
     ],
-    "updated_at": "2018-10-11 03:30:28",
+    "updated_at": "2018-10-11 03:30:38",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
