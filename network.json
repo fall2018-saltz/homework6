@@ -183,6 +183,17 @@
             ],
             "source": "clean.R",
             "target": "BarchartColor.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Scatter.R"
         }
     ],
     "nodes": [
@@ -294,6 +305,6 @@
             "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:34:30",
+    "updated_at": "2018-10-11 03:34:37",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
