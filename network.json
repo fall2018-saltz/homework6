@@ -99,26 +99,6 @@
         {
             "ports": [
                 {
-                    "output": "gbarchart1",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "gbarchart1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "gbarchart2",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "gbarchart2.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "mergedataframe",
                     "output": "mergedataframe",
                     "type": "r_obj"
@@ -235,8 +215,12 @@
         },
         {
             "name": "gbarchart2.png"
+        },
+        {
+            "desc": "",
+            "name": "BarchartNoOfM.R"
         }
     ],
-    "updated_at": "2018-10-11 03:26:39",
+    "updated_at": "2018-10-11 03:28:03",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
