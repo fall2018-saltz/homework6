@@ -9,4 +9,6 @@ readStates <- function(states)
     
     num.row <- nrow(states)
     states <- states[-num.row,]
+    
+    #removing the first four columns
 }
