@@ -49,3 +49,5 @@ arrests
 mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
 mergedataframe
 
+
+
