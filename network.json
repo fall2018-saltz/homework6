@@ -241,10 +241,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Scatter.R"
+            "name": "Scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:33:16",
+    "updated_at": "2018-10-11 03:33:52",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
