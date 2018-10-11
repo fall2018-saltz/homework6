@@ -319,12 +319,6 @@
         {
             "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "BarchartNoOfM.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "rohanmahajan",
-            "desc": "",
             "name": "BarChartRotation.R",
             "task_status": "in progress"
         },
@@ -354,8 +348,14 @@
             "desc": "Whole code description given",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Step C - Question 8",
+            "name": "BarchartNoOfM.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 03:36:49",
+    "updated_at": "2018-10-11 03:45:13",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
