@@ -38,16 +38,6 @@
         {
             "ports": [
                 {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram2.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "gmurder",
                     "type": "png"
                 }
@@ -134,6 +124,17 @@
             ],
             "source": "Boxplot.R",
             "target": "gbox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram2.R"
         }
     ],
     "nodes": [
@@ -200,6 +201,6 @@
             "name": "gbox.png"
         }
     ],
-    "updated_at": "2018-10-11 03:12:29",
+    "updated_at": "2018-10-11 03:16:55",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
