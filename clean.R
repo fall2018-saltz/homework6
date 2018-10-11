@@ -5,10 +5,9 @@
 #Homework due on October 10th 2018.
 #Submitted using MIDST Tool.
 
-
+#Since I cannot install packages and since the packages are installed, I directly used library.
 
 library(ggplot2)
-
 library(tibble)
 
 
