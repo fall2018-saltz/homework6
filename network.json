@@ -17,22 +17,23 @@
         {
             "ports": [
                 {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "g",
                     "type": "png"
                 }
             ],
             "source": "Histogram.R",
             "target": "g.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram.R"
         }
     ],
     "nodes": [
@@ -54,6 +55,6 @@
             "name": "g.png"
         }
     ],
-    "updated_at": "2018-10-11 02:55:07",
+    "updated_at": "2018-10-11 02:57:00",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
