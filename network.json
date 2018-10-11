@@ -20,9 +20,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "rohanmahajan",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-11 01:57:57",
+    "updated_at": "2018-10-11 02:32:33",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
