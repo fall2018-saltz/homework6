@@ -50,4 +50,6 @@ mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
 mergedataframe
 
 
+#Using bar charts
+
 
