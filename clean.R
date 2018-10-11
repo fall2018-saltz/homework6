@@ -25,3 +25,10 @@ readStates <- function(states)
 
 cleanCensus <- readStates(raw_data)
 str(cleanCensus)
+
+
+arrests <- USArrests
+
+arrests <- arrests %>% rownames_to_column("stateName")
+
+arrests
