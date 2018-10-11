@@ -61,8 +61,6 @@ totalmergedf <- mergedataframe
 
 numbermurder <- (totalmergedf$Murder*totalmergedf$population)
 
-colnames(numbermurder) <- c("NofMurders")
-
 mergedataframe$newcolumn <- numbermurder
 
 mergedataframe
