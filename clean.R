@@ -5,6 +5,8 @@
 #Homework due on October 10th 2018.
 #Submitted using MIDST Tool.
 
+#Installing the packages
+
 
 
 readStates <- function(states)
