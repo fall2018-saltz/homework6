@@ -55,6 +55,7 @@ mergedataframe
 #Step C - Which state had the most murders
 
 #To calculate the number of murders, I multiplied the Murder rate from the second dataset to the population of the first dataset.
+#The total number of murders are this found.
 
 totalmergedf <- mergedataframe
 
