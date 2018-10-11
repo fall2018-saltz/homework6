@@ -57,9 +57,9 @@ mergedataframe
 #To calculate the number of murders, I multiplied the Murder rate from the second dataset to the population of the first dataset.
 #The total number of murders are this found.
 
-totalmergedf <- mergedataframe
+totalmergedf <- mergedataframe #assigning new variable
 
-numbermurder <- (totalmergedf$Murder*totalmergedf$population)
+numbermurder <- (totalmergedf$Murder*totalmergedf$population) #calculation
 
 mergedataframe$newcolumn <- numbermurder #addition of new column to the merged dataframe
 
