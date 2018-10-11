@@ -8,6 +8,11 @@
 #Installing the packages
 
 
+library(ggplot2)
+
+library(tidyverse)
+
+
 
 readStates <- function(states)
 {
