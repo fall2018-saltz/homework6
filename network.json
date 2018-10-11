@@ -149,7 +149,8 @@
         {
             "ports": [
                 {
-                    "output": "gassault",
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
                     "type": "r_obj"
                 }
             ],
@@ -233,6 +234,6 @@
             "name": "gbarchart2.png"
         }
     ],
-    "updated_at": "2018-10-11 03:24:28",
+    "updated_at": "2018-10-11 03:25:01",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
