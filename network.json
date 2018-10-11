@@ -56,18 +56,18 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "rohanmahajan",
-            "desc": "",
-            "name": "Histogram.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "g.png"
         },
         {
             "name": "gmurder.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Histogram.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:59:18",
+    "updated_at": "2018-10-11 03:00:50",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
