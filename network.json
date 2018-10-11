@@ -64,6 +64,16 @@
             ],
             "source": "clean.R",
             "target": "Histogram3.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gassault",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram3.R",
+            "target": "gassault.png"
         }
     ],
     "nodes": [
@@ -103,6 +113,6 @@
             "name": "gassault.png"
         }
     ],
-    "updated_at": "2018-10-11 03:07:21",
+    "updated_at": "2018-10-11 03:07:33",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
