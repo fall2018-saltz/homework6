@@ -1,4 +1,16 @@
 
+#IST 687 
+#Homework 6
+#Submitted by Rohan Mahajan on October 10th 2018.
+#Homework due on October 10th 2018.
+#Submitted using MIDST Tool.
+
+#Since I cannot install packages and since the packages are installed, I directly used library.
+
+library(ggplot2)
+library(tibble)
+
+
 readStates <- function(states)
 {
     #removing first row
@@ -25,3 +37,17 @@ readStates <- function(states)
 
 cleanCensus <- readStates(raw_data)
 str(cleanCensus)
+
+#Loading the second dataset which is arrests.
+
+arrests <- USArrests
+arrests <- rownames_to_column(arrests, var = "stateName")
+arrests
+
+#Merging the data sets
+
+mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
+mergedataframe
+
+
+
