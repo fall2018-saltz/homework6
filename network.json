@@ -129,37 +129,6 @@
         {
             "ports": [
                 {
-                    "input": "mergedataframe",
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram3.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "gbar",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "gbar.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "gbarchart",
-                    "type": "png"
-                }
-            ],
-            "source": "clean.R",
-            "target": "gbarchart.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "gbarchart1",
                     "type": "png"
                 }
@@ -176,6 +145,16 @@
             ],
             "source": "clean.R",
             "target": "gbarchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gassault",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram3.R"
         }
     ],
     "nodes": [
@@ -254,6 +233,6 @@
             "name": "gbarchart2.png"
         }
     ],
-    "updated_at": "2018-10-11 03:22:32",
+    "updated_at": "2018-10-11 03:24:28",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
