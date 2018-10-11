@@ -25,13 +25,9 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "MergeArrests.R"
-        },
-        {
             "name": "csvfile6157.csv"
         }
     ],
-    "updated_at": "2018-10-11 02:34:19",
+    "updated_at": "2018-10-11 02:39:53",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
