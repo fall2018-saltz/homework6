@@ -12,6 +12,7 @@ library(tibble)
 
 
 
+
 readStates <- function(states)
 {
     #removing first row
@@ -39,7 +40,8 @@ readStates <- function(states)
 cleanCensus <- readStates(raw_data)
 str(cleanCensus)
 
-
+#Loading the second dataset which is arrests.
 arrests <- USArrests
+arrests <- arrests %>% rownames_to_column("stateName")
 arrests
 
