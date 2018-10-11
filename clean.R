@@ -67,4 +67,5 @@ mergedataframe #this is the final dataframe that will be used.
 
 
 #Based on given diagrams, the visualization of population is better using histogram than Box plot as Box plot is very vague.
+#The histogram clearly represents the data shown of the dataframe.
 
