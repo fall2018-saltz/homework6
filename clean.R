@@ -6,4 +6,6 @@ readStates <- function(states)
     states <- states[-1,]
     
     #removing last row
+    
+    num.row <- nrow(states)
 }
