@@ -40,8 +40,5 @@ str(cleanCensus)
 
 #Loading the second dataset which is arrests.
 
-arrests <- USArrests
-arrests <- arrests %>% rownames_to_column("stateName")
-arrests
 
 
