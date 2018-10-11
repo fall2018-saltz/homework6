@@ -194,6 +194,16 @@
             ],
             "source": "clean.R",
             "target": "Scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbar",
+                    "type": "png"
+                }
+            ],
+            "source": "BarchartNoOfM.R",
+            "target": "gbar.png"
         }
     ],
     "nodes": [
@@ -305,6 +315,6 @@
             "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:34:37",
+    "updated_at": "2018-10-11 03:34:50",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
