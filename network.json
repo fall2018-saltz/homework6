@@ -136,6 +136,16 @@
             ],
             "source": "clean.R",
             "target": "Histogram3.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbar",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "gbar.png"
         }
     ],
     "nodes": [
@@ -214,6 +224,6 @@
             "name": "gbarchart2.png"
         }
     ],
-    "updated_at": "2018-10-11 03:21:56",
+    "updated_at": "2018-10-11 03:22:04",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
