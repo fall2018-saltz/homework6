@@ -1,5 +1,5 @@
 
-library(ggplot)
+library(ggplot2)
 gboxmur <- ggplot(mergedataframe, aes(x=factor(0),Murder)) + geom_boxplot()
 gboxmur
 

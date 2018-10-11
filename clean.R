@@ -50,4 +50,22 @@ mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
 mergedataframe
 
 
+#Using bar charts
+
+#Step C - Which state had the most murders
+
+#To calculate the number of murders, I multiplied the Murder rate from the second dataset to the population of the first dataset.
+#The total number of murders are this found.
+
+totalmergedf <- mergedataframe #assigning new variable
+
+numbermurder <- (totalmergedf$Murder*totalmergedf$population) #calculation
+
+mergedataframe$newcolumn <- numbermurder #addition of new column to the merged dataframe
+
+mergedataframe #this is the final dataframe that will be used.
+
+
+#Based on given diagrams, the visualization of population is better using histogram than Box plot as Box plot is very vague.
+#The histogram clearly represents the data shown of the dataframe.
 
