@@ -1,0 +1,28 @@
+{
+    "collaborators": [
+        "rohanmahajan"
+    ],
+    "created_at": "2018-10-04 15:22:24",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "clean.R"
+        }
+    ],
+    "updated_at": "2018-10-11 01:57:57",
+    "url": "https://github.com/fall2018-saltz/homework6"
+}
