@@ -74,6 +74,16 @@
             ],
             "source": "Histogram3.R",
             "target": "gassault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot.R"
         }
     ],
     "nodes": [
@@ -117,6 +127,6 @@
             "name": "Boxplot.R"
         }
     ],
-    "updated_at": "2018-10-11 03:07:55",
+    "updated_at": "2018-10-11 03:08:09",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
