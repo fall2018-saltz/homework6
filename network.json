@@ -39,8 +39,11 @@
             "desc": "",
             "name": "Histogram.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "g.png"
         }
     ],
-    "updated_at": "2018-10-11 02:54:28",
+    "updated_at": "2018-10-11 02:54:47",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
