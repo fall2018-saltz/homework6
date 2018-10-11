@@ -234,6 +234,16 @@
             ],
             "source": "BarchartColor.R",
             "target": "gbarchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gscatter",
+                    "type": "png"
+                }
+            ],
+            "source": "Scatter.R",
+            "target": "gscatter.png"
         }
     ],
     "nodes": [
@@ -345,6 +355,6 @@
             "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:35:27",
+    "updated_at": "2018-10-11 03:35:44",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
