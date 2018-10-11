@@ -58,16 +58,6 @@
         {
             "ports": [
                 {
-                    "output": "mergedataframe",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Histogram4.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "grape",
                     "type": "png"
                 }
@@ -158,6 +148,17 @@
             ],
             "source": "clean.R",
             "target": "Boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram4.R"
         }
     ],
     "nodes": [
@@ -236,6 +237,6 @@
             "name": "gbarchart2.png"
         }
     ],
-    "updated_at": "2018-10-11 03:25:56",
+    "updated_at": "2018-10-11 03:26:04",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
