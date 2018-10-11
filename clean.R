@@ -11,8 +11,6 @@ library(ggplot2)
 library(tibble)
 
 
-
-
 readStates <- function(states)
 {
     #removing first row
@@ -41,7 +39,9 @@ cleanCensus <- readStates(raw_data)
 str(cleanCensus)
 
 #Loading the second dataset which is arrests.
+
 arrests <- USArrests
 arrests <- arrests %>% rownames_to_column("stateName")
 arrests
+
 
