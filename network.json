@@ -104,6 +104,16 @@
             ],
             "source": "Histogram4.R",
             "target": "grape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot2.R"
         }
     ],
     "nodes": [
@@ -160,6 +170,6 @@
             "name": "Boxplot2.R"
         }
     ],
-    "updated_at": "2018-10-11 03:09:32",
+    "updated_at": "2018-10-11 03:09:44",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
