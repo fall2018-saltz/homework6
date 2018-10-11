@@ -38,12 +38,12 @@
         {
             "ports": [
                 {
-                    "output": "gmurder",
-                    "type": "png"
+                    "output": "mergedataframe",
+                    "type": "r_obj"
                 }
             ],
-            "source": "Histogram.R",
-            "target": "gmurder.png"
+            "source": "clean.R",
+            "target": "Histogram2.R"
         }
     ],
     "nodes": [
@@ -68,14 +68,18 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Histogram3.R"
+            "name": "Histogram3.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Histogram2.R"
+            "name": "Histogram2.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 03:03:32",
+    "updated_at": "2018-10-11 03:06:33",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
