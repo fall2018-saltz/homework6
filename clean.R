@@ -65,3 +65,6 @@ mergedataframe$newcolumn <- numbermurder #addition of new column to the merged d
 
 mergedataframe #this is the final dataframe that will be used.
 
+
+#Based on given diagrams, the visualization of population is better using histogram than Box plot as Box plot is very vague.
+
