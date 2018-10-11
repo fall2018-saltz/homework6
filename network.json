@@ -153,8 +153,10 @@
             "name": "gassault.png"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Boxplot.R"
+            "name": "Boxplot.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "rohanmahajan",
@@ -166,10 +168,15 @@
             "name": "grape.png"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Boxplot2.R"
+            "name": "Boxplot2.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gboxmur.png"
         }
     ],
-    "updated_at": "2018-10-11 03:09:44",
+    "updated_at": "2018-10-11 03:11:53",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
