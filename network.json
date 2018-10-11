@@ -17,7 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "mergedataframe",
                     "output": "mergedataframe",
                     "type": "r_obj"
                 }
@@ -36,10 +35,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Histogram.R"
+            "name": "Histogram.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:52:44",
+    "updated_at": "2018-10-11 02:54:28",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
