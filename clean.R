@@ -29,6 +29,4 @@ str(cleanCensus)
 
 arrests <- USArrests
 arrests
-arrests <- arrests %>% rownames_to_column("stateName")
 
-arrests
