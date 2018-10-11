@@ -17,6 +17,17 @@
         {
             "ports": [
                 {
+                    "output": "g",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "g.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
                     "output": "mergedataframe",
                     "type": "r_obj"
                 }
@@ -27,12 +38,102 @@
         {
             "ports": [
                 {
-                    "output": "g",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gmurder",
                     "type": "png"
                 }
             ],
-            "source": "Histogram.R",
-            "target": "g.png"
+            "source": "Histogram2.R",
+            "target": "gmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram3.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gassault",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram3.R",
+            "target": "gassault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram4.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "grape",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram4.R",
+            "target": "grape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Boxplot2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gboxmur",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot2.R",
+            "target": "gboxmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbox",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot.R",
+            "target": "gbox.png"
         }
     ],
     "nodes": [
@@ -45,15 +146,60 @@
             "task_status": "in progress"
         },
         {
+            "name": "g.png"
+        },
+        {
+            "name": "gmurder.png"
+        },
+        {
             "assigned_to": "rohanmahajan",
             "desc": "",
             "name": "Histogram.R",
             "task_status": "in progress"
         },
         {
-            "name": "g.png"
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Histogram3.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Histogram2.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gassault.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Histogram4.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "grape.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Boxplot2.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "gboxmur.png"
+        },
+        {
+            "name": "gbox.png"
         }
     ],
-    "updated_at": "2018-10-11 02:55:07",
+    "updated_at": "2018-10-11 03:12:29",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
