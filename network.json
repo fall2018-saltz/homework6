@@ -224,6 +224,16 @@
             ],
             "source": "BarchartStateMurder.R",
             "target": "gbarchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gbarchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "BarchartColor.R",
+            "target": "gbarchart2.png"
         }
     ],
     "nodes": [
@@ -335,6 +345,6 @@
             "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:35:07",
+    "updated_at": "2018-10-11 03:35:27",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
