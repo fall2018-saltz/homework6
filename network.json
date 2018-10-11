@@ -251,11 +251,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "rohanmahajan",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "g.png"
         },
         {
@@ -353,8 +348,14 @@
         },
         {
             "name": "gscatter.png"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "Whole code description given",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 03:35:44",
+    "updated_at": "2018-10-11 03:36:49",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
