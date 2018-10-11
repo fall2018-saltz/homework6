@@ -54,6 +54,16 @@
             ],
             "source": "Histogram2.R",
             "target": "gmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Histogram3.R"
         }
     ],
     "nodes": [
@@ -90,6 +100,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 03:06:44",
+    "updated_at": "2018-10-11 03:07:14",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
