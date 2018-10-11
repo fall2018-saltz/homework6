@@ -44,4 +44,8 @@ arrests <- USArrests
 arrests <- rownames_to_column(arrests, var = "stateName")
 arrests
 
+#Merging the data sets
+
+mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
+mergedataframe
 
