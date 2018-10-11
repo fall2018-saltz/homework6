@@ -161,6 +161,17 @@
             ],
             "source": "clean.R",
             "target": "BarChartRotation.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedataframe",
+                    "output": "mergedataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "BarchartStateMurder.R"
         }
     ],
     "nodes": [
@@ -272,6 +283,6 @@
             "name": "gscatter.png"
         }
     ],
-    "updated_at": "2018-10-11 03:34:18",
+    "updated_at": "2018-10-11 03:34:25",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
