@@ -217,22 +217,34 @@
             "name": "gbarchart2.png"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "BarchartNoOfM.R"
+            "name": "BarchartNoOfM.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarChartRotation.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarchartStateMurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "BarchartColor.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
-            "name": "BarChartRotation.R"
-        },
-        {
-            "desc": "",
-            "name": "BarchartStateMurder.R"
-        },
-        {
-            "desc": "",
-            "name": "BarchartColor.R"
+            "name": "Scatter.R"
         }
     ],
-    "updated_at": "2018-10-11 03:30:38",
+    "updated_at": "2018-10-11 03:33:16",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
