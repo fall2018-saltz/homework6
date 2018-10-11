@@ -65,31 +65,3 @@ mergedataframe$newcolumn <- numbermurder
 
 mergedataframe
 
-#Bar Chart
-
-
-gbar <- ggplot(mergedataframe,aes(x=reorder(stateName,newcolumn), y=newcolumn, group=1))
-gbar <- gbar + geom_col()
-gbar
-
-#Bar chart by rotating X labels.
-gbarchart <- ggplot(mergedataframe,aes(x=reorder(stateName,newcolumn), y=newcolumn, group=1))
-gbarchart <- gbarchart + geom_col()
-gbarchart <- gbarchart + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-gbarchart
-
-#Bar Chart with Murder Rate
-
-gbarchart1 <- ggplot(mergedataframe,aes(x=reorder(Murder,newcolumn), y=newcolumn, group=1))
-gbarchart1 <- gbarchart1 + geom_col()
-gbarchart1 <- gbarchart1 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-gbarchart1
-
-#Bar chart with color
-
-gbarchart2 <- ggplot(mergedataframe,aes(x=reorder(Murder,newcolumn), y=newcolumn, fill=percentOver18, group=1))
-gbarchart2 <- gbarchart2 + geom_col()
-gbarchart2 <- gbarchart2 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-gbarchart2
-
-
