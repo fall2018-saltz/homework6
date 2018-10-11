@@ -114,6 +114,16 @@
             ],
             "source": "clean.R",
             "target": "Boxplot2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gboxmur",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot2.R",
+            "target": "gboxmur.png"
         }
     ],
     "nodes": [
@@ -177,6 +187,6 @@
             "name": "gboxmur.png"
         }
     ],
-    "updated_at": "2018-10-11 03:11:53",
+    "updated_at": "2018-10-11 03:12:04",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
