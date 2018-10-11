@@ -206,8 +206,11 @@
         },
         {
             "name": "gbarchart.png"
+        },
+        {
+            "name": "gbarchart1.png"
         }
     ],
-    "updated_at": "2018-10-11 03:21:42",
+    "updated_at": "2018-10-11 03:21:51",
     "url": "https://github.com/fall2018-saltz/homework6"
 }
